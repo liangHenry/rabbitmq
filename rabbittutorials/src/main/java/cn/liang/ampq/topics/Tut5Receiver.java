@@ -24,7 +24,7 @@ public class Tut5Receiver {
         doWork(in);
         watch.stop();
         System.out.println("instance " + receiver + " [x] Done in " 
-            + watch.getTotalTimeSeconds() + "s");
+            + watch.getTotalTimeSeconds() + "s1");
     }
 
     private void doWork(String in) throws InterruptedException {
